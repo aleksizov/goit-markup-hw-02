@@ -26,6 +26,7 @@ body {
 .list {
     list-style: none;
 }
+.header-auth {text-decoration: none;}
 
 .section-title {
     color: var(--color-h);
@@ -61,6 +62,9 @@ body {
     text-decoration: none;
 
 }
+.logo-web {
+    color: var(--accent);
+}
 
 .header-nav {
     font-weight: 500;
@@ -81,6 +85,15 @@ body {
 
 .header-auth {
     color: var(--accent);
+}
+.header-auth {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: #757575;
 }
 
 .header-auth.link{
@@ -129,17 +142,16 @@ body {
 
 /* -------Преимущества-------- */
 
-.Benefits {
+.benefits {
     background-color: var(--second-bgc);
 }
     
 
-.Benefits-item {
+.benefits-item {
     color: var(--color-h);
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
 }
 
 .item-text {
@@ -172,7 +184,12 @@ body {
     letter-spacing: 0.03em;
 }
 .employees-title {
-    color: #212121;}
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;}
 /* ---------Footer--------- */
 .footer {
     background-color: var(--darc-bgc);
@@ -180,6 +197,9 @@ body {
 
 
 .footer-logo {
+    color: var(--white-color-text);
+}
+.logo-footer {
     color: var(--white-color-text);
 }
 
@@ -238,3 +258,4 @@ body {
     line-height: 1.88;
     letter-spacing: 0.03em;
 }
+.footer-logo {text-decoration: none;}
